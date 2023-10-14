@@ -1,6 +1,6 @@
-# Macrob library
+# Macro library
 
-.macro fillel (%x) # Read elemnt
+.macro fillel (%x) # Read element
    li a7, 5
    ecall
    mv %x, a0
