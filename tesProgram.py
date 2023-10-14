@@ -7,10 +7,11 @@ def run_asm_file(asm_file_path, input_data):
 
     try:
         count=1
-        for input in input_data:
+        for input in input_data: 
             print(f'Тест номер {count}')
             print()
-            result = subprocess.run(
+            result = subprocess.run( #Запуск программы, передавая ей на вход тестовые данные(параметр input).
+                #Третьим параметом должен стоять полный путь к rars на вашем компьютере
                 ["java", "-jar", "C:/Users/kostya_/Downloads/Telegram Desktop/rars1_6.jar", asm_file_path],
                 input=input, text=True, capture_output=True)
             print("Входные данные:\n" + input)
@@ -24,7 +25,7 @@ def run_asm_file(asm_file_path, input_data):
 
 
 def main():
-    asm_file_path = "C:/Users/kostya_/OneDrive/Рабочий стол/ABC/ИДЗ/main.asm"
+    asm_file_path = "C:/Users/kostya_/OneDrive/Рабочий стол/ABC/ИДЗ/main.asm" #Путь к main файлу
 
     test_data = [
         "0",
