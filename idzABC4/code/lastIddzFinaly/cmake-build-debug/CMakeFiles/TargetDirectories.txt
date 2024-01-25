@@ -1,0 +1,3 @@
+C:/Users/kostya_/lastIddzFinaly/cmake-build-debug/CMakeFiles/lastIddzFinaly.dir
+C:/Users/kostya_/lastIddzFinaly/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/kostya_/lastIddzFinaly/cmake-build-debug/CMakeFiles/rebuild_cache.dir
