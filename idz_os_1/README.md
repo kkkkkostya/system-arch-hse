@@ -18,11 +18,11 @@
 * В конце создается процесс для записи преобразованной строки в выходной файл с помощью pipe2[0]
 ```
 
-Программа была протестирована на 5-ти [тестовых входных файлов](idz_os_1/tests4)
+Программа была протестирована на 5-ти [тестовых входных файлов](https://github.com/kkkkkostya/system-arch-hse/tree/c78ce982f0bd5ca6f64ac6308751412f34d99c49/idz_os_1/tests4)
 Примеры ввода/вывода:
 1) Ввод: test4_1.txt output4_1.txt 2 6\
-   [Файл](idz_os_1/tests4/test4_1.txt): abcdefghijk\
-   [Вывод](idz_os_1/tests4/output4_1.txt): abfedcghijk
+   [Файл](https://github.com/kkkkkostya/system-arch-hse/blob/c78ce982f0bd5ca6f64ac6308751412f34d99c49/idz_os_1/tests4/test4_1.txt): abcdefghijk\
+   [Вывод](https://github.com/kkkkkostya/system-arch-hse/blob/c78ce982f0bd5ca6f64ac6308751412f34d99c49/idz_os_1/tests4/output4_1.txt): abfedcghijk
 2) Индексы при вводе для test4_2.txt: 1 3
 3) test4_3: 0 4
 4) test4_4: 2 5
