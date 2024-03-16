@@ -18,7 +18,7 @@
 * В конце создается процесс для записи преобразованной строки в выходной файл с помощью pipe2[0]
 ```
 
-Программа была протестирована на 5-ти [тестовых входных файлов](https://github.com/kkkkkostya/system-arch-hse/tree/c78ce982f0bd5ca6f64ac6308751412f34d99c49/idz_os_1/tests4)
+Программа была протестирована на 5-ти [тестовых входных файлов](https://github.com/kkkkkostya/system-arch-hse/tree/a15936f6c0d527c558bb922d08ee8044c0602eb7/idz_os_1/tests)
 Примеры ввода/вывода:
 1) Ввод: test4_1.txt output4_1.txt 2 6\
    [Файл](https://github.com/kkkkkostya/system-arch-hse/blob/c78ce982f0bd5ca6f64ac6308751412f34d99c49/idz_os_1/tests4/test4_1.txt): abcdefghijk\
